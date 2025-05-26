@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-.container {
+.container-reg{
     max-width: 500px;
     border: solid 1px silver;
     margin: auto;
@@ -91,4 +91,20 @@ form button{
     color: #727272;
     padding: 10px 0;
     text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    padding-top: 30px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    gap: 50px;
 }
