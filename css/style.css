@@ -92,3 +92,53 @@ form button{
     padding: 10px 0;
     text-decoration: none;
 }
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    padding-top: 30px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 53px;
+    border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
+
+}
+header nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.login{
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 6px;
+    width: 100px;
+    height: 35px;
+    background: #46a358;
+    border: none;
+    padding: 17px 17px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+.hero-img{
+    width: 507px;
+    height: 450px;
+}
+.hero-title{
+    width: 530px;
+    height: 140px;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #3d3d3d;
+}
+.hero-title span{
+    color: #46a358;
+}
