@@ -172,6 +172,9 @@ header nav ul li:hover:after{
     display: inline-block;
     content: "";
 }
+header nav ul li:hover a{
+    font-weight: bold;
+}
 .login{
     font-family: 'cera_proregular';
     display: inline-flex;
@@ -217,6 +220,7 @@ section{
     background-color: #F5F5F5;
 }
 .info{
+    font-family: 'cera_proregular';
     margin-top: 5px;
     font-weight: 400;
     font-size: 14px;
