@@ -216,7 +216,6 @@ section{
     align-items: center;
     box-sizing: border-box;
     display: flex;
-    height: 450px;
     background-color: #F5F5F5;
 }
 .info{
@@ -254,4 +253,147 @@ h3{
     padding: 11px 26px;
     text-decoration: none;
 }
+.category{
+    background-color: white;
+    padding-left: 0px;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 46px;
+}
+.leftside{
+    max-width: 310px;
+    background: #fbfbfb;
+}
+.leftside ul{
+    padding-bottom: 377px;
+}
+.container-category{
+    background-color: #fff;
+}
+.category-title{
+    font-family: 'cera_probold';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    margin-bottom: 7px;
+    margin-left: 18px;
+    margin-top: 14px;
+}
+.rightside{
+    max-width: 840px;
+    flex-wrap: wrap;
+}
+.nav-plants{
+    display: flex;
+    justify-content: space-between;
+    gap: 385px;
+}
+.nav-plants ul li a:hover{
+    font-weight: 700;
+    color: #46a358;
+    border-bottom: 2px solid #46a358;
+}
+.leftside ul li{
+    list-style: none;
+    margin-left: 30px;
+    font-family: 'cera_proregular';
+    font-size: 15px;
+    line-height: 267%;
+    color: #3D3D3D;
+}
+.leftside ul li:hover{
+    font-family: cera_proregular;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 267%;
+    color: #46a358;
+    cursor: pointer;
+}
+.nav-top{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding-bottom: 30px;
+}
+.nav-top li a{
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+.shortby{
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+    color: #3d3d3d;
+}
+.shortby a{
+    text-decoration: none;
+    color: #3d3d3d;
+}
+.card img{
+    padding-bottom: 12px;
+}
+.name{
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #3d3d3d;
+    padding-bottom: 6px;
+}
+.price{
+    font-family: 'cera_proregular';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #46a358;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    gap: 33px;
+    max-width: 840px;
+    flex-wrap: wrap;
+}
+.card{
+    display: inline-block;
+    max-width: 258px;
+}
+.pagination{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 90px;
+}
+.nav-bottom{
+    display: inline-flex;
+    list-style: none;
+    gap: 10px;
 
+}
+.nav-bottom li a{
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    text-decoration: none;
+    font-family: cera_proregular;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    border-radius: 4px;
+    border: 1px solid #e5e5e5;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bottom li a:hover{
+    background: #46a358;
+    font-family: cera_probold;
+    font-weight: 700;
+    color: #fff;
+}
