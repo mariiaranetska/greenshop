@@ -209,7 +209,6 @@ header nav ul li:hover a{
     color: #46a358;
 }
 section{
-    padding-left: 40px;
     max-width: 1200px;
     margin: 12px auto;
     justify-content: space-between;
@@ -396,4 +395,162 @@ h3{
     font-family: cera_probold;
     font-weight: 700;
     color: #fff;
+}
+.blog-section{
+    background-color: #fff;
+    justify-content: space-between;
+    gap: 28px;
+    margin-top: 94px;
+}
+.flower{
+    width: 586px;
+    height: 250px;
+    background: #fbfbfb;
+    position: relative;
+}
+.img-flower{
+    width: 287px;
+    height: 292px;
+    position: absolute;
+    top: -52px;
+}
+.info-flower{
+
+}
+.info-flower h4{
+    font-family: cera_probold;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #3d3d3d;
+    margin-right: 30px;
+    margin-top: 37px;
+}
+.text-flower{
+    font-family: cera_proregular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: right;
+    color: #727272;
+    margin-right: 30px;
+    margin-top: 9px;
+    margin-bottom: 25px;
+}
+.button-find{
+    width: 140px;
+    height: 40px;
+    border-radius: 6px;
+    background: #46a358;
+    text-decoration: none;
+    font-family: cera_promedium;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    align-items: center;
+    margin-left: 416px;
+    display: inline-flex;
+    padding-left: 28px;
+}
+.button-find img{
+    align-items: center;
+    margin-left: 2px;
+    margin-top: 1px;
+}
+.img-flowerstyle{
+    width: 289px;
+    height: 287px;
+    position: absolute;
+    top: -45px;
+}
+.section-posts{
+    margin-top: 138px;
+    background-color: #fff;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 1200px;
+}
+h2{
+    font-family: cera_probold;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 53%;
+    text-align: center;
+    color: #3d3d3d;
+    width: 100%;
+}
+.subtitle{
+    font-family: cera_proregular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: #727272;
+    margin-top: 15px;
+    width: 100%;
+}
+.posts{
+    display: flex;
+    gap: 43px;
+    margin-top: 35px;
+}
+.card-blog{
+    width: 268px;
+    height: 362px;
+    background: #fbfbfb;
+}
+.blog-text{
+    justify-content: start;
+    margin-left: 15px;
+    text-align: start;
+}
+.blog-text span{
+    font-family: cera_promedium;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #46a358;
+    margin-top: 8px;
+}
+h5{
+    font-family: cera_probold;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #3d3d3d;
+    text-align: start;
+    margin-top: 4px;
+}
+.blog-text p{
+    font-family: cera_proregular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #727272;
+    margin-top: 4px;
+}
+.blog-text a{
+    font-family: cera_promedium;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #3d3d3d;
+    text-decoration: none;
+    margin-top: 9px;
+    display: inline-flex;
+    align-items: center;
+}
+.blog-text a img{
+    margin-left: 3px;
+}
+.blog-text a:hover{
+    font-family: cera_promedium;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #46a358;
 }
