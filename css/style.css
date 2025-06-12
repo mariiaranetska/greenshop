@@ -48,6 +48,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+a{
+    text-decoration: none;
+}
 .container-reg{
     max-width: 500px;
     border: solid 1px silver;
@@ -140,13 +144,22 @@ form button{
 .container{
     max-width: 1200px;
     margin: auto;
+    justify-content: space-between;
+    display: flex;
 }
+
+.bg-color-gray{
+    background-color: #F5F5F5;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 header{
     padding-top: 30px;
+    padding-bottom: 12px;
 }
 header .container{
-    display: flex;
-    justify-content: space-between;
     height: 53px;
     border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
 }
@@ -181,7 +194,6 @@ header nav ul li:hover a{
     align-items: center;
     gap: 4px;
     border-radius: 6px;
-    width: 100px;
     height: 35px;
     background: #46a358;
     border: none;
@@ -191,8 +203,11 @@ header nav ul li:hover a{
     color: #fff;
     text-decoration: none;
 }
+.left-hero{
+    padding-left: 40px;
+}
 .hero-img{
-    width: 507px;
+    max-width: 507px;
     height: 450px;
 }
 .hero-title{
@@ -209,13 +224,10 @@ header nav ul li:hover a{
     color: #46a358;
 }
 section{
-    max-width: 1200px;
-    margin: 12px auto;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    display: flex;
-    background-color: #F5F5F5;
+    background-color: white;
+}
+.hero-section{
+    margin-bottom: 26px;
 }
 .info{
     font-family: 'cera_proregular';
@@ -240,7 +252,6 @@ h3{
     font-family: 'cera_probold';
     border-radius: 6px;
     margin-top: 44px;
-    width: 140px;
     height: 40px;
     background: #46a358;
     font-weight: 700;
@@ -252,19 +263,23 @@ h3{
     padding: 11px 26px;
     text-decoration: none;
 }
-.category{
-    background-color: white;
-    padding-left: 0px;
-    justify-content: space-between;
-    align-items: start;
-    margin-top: 46px;
-}
+
+
 .leftside{
     max-width: 310px;
-    background: #fbfbfb;
+
+}
+.leftside .bg-color-gray{
+    padding-top: 14px;
+
+}
+.leftside .category-title{
+    margin-left: 18px;
+    text-align: left;
 }
 .leftside ul{
-    padding-bottom: 377px;
+    margin-bottom: 377px;
+    margin-left: 30px;
 }
 .container-category{
     background-color: #fff;
@@ -276,17 +291,15 @@ h3{
     line-height: 89%;
     color: #3d3d3d;
     margin-bottom: 7px;
-    margin-left: 18px;
+
     margin-top: 14px;
 }
 .rightside{
     max-width: 840px;
-    flex-wrap: wrap;
 }
 .nav-plants{
     display: flex;
     justify-content: space-between;
-    gap: 385px;
 }
 .nav-plants ul li a:hover{
     font-weight: 700;
@@ -295,7 +308,7 @@ h3{
 }
 .leftside ul li{
     list-style: none;
-    margin-left: 30px;
+
     font-family: 'cera_proregular';
     font-size: 15px;
     line-height: 267%;
@@ -352,12 +365,15 @@ h3{
     line-height: 89%;
     color: #46a358;
 }
+.products-section{
+    margin-bottom: 142px;
+}
 .products{
     display: flex;
     justify-content: space-between;
     gap: 33px;
-    max-width: 840px;
     flex-wrap: wrap;
+    margin-bottom: 90px;
 }
 .card{
     display: inline-block;
@@ -366,8 +382,8 @@ h3{
 .pagination{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    padding-top: 90px;
+
+
 }
 .nav-bottom{
     display: inline-flex;
@@ -384,6 +400,8 @@ h3{
     font-weight: 300;
     font-size: 18px;
     line-height: 89%;
+
+
     color: #3d3d3d;
     border-radius: 4px;
     border: 1px solid #e5e5e5;
@@ -396,25 +414,55 @@ h3{
     font-weight: 700;
     color: #fff;
 }
+/*
+.nav-bottom li:last-of-type a:after{
+    display: block;
+    content: "";
+    background-image: url("../images/Arrow - Right 2.svg");
+    width: 18px;
+    height: 18px;
+}
+.nav-bottom li:last-of-type a:hover:after{
+    background-image: url("../images/Arrow - Right 2_black.svg");
+}
+*/
+.nav-bottom li a:hover svg path{
+    stroke: white;
+}
 .blog-section{
     background-color: #fff;
     justify-content: space-between;
     gap: 28px;
-    margin-top: 94px;
+    margin-bottom: 142px;
 }
 .flower{
-    width: 586px;
-    height: 250px;
+    display: flex;
+    max-width: 586px;
+    padding-bottom: 45px;
     background: #fbfbfb;
-    position: relative;
+
 }
 .img-flower{
     width: 287px;
-    height: 292px;
-    position: absolute;
-    top: -52px;
+
+    position: relative;
 }
+
+
+.img-flower img{
+    width: 287px;
+
+    position: absolute;
+    top: -45px;
+
+}
+
+
 .info-flower{
+    padding-top: 37px;
+    padding-right: 30px;
+    text-align: right;
+    padding-left: 50px;
 
 }
 .info-flower h4{
@@ -423,10 +471,9 @@ h3{
     font-size: 18px;
     line-height: 133%;
     text-transform: uppercase;
-    text-align: right;
     color: #3d3d3d;
-    margin-right: 30px;
-    margin-top: 37px;
+
+
 }
 .text-flower{
     font-family: cera_proregular;
@@ -435,44 +482,47 @@ h3{
     line-height: 171%;
     text-align: right;
     color: #727272;
-    margin-right: 30px;
+
     margin-top: 9px;
     margin-bottom: 25px;
 }
 .button-find{
-    width: 140px;
+
     height: 40px;
     border-radius: 6px;
     background: #46a358;
-    text-decoration: none;
+
     font-family: cera_promedium;
     font-weight: 500;
     font-size: 14px;
     color: #fff;
     align-items: center;
-    margin-left: 416px;
+
     display: inline-flex;
     padding-left: 28px;
+    padding-right: 28px;
 }
 .button-find img{
     align-items: center;
     margin-left: 2px;
     margin-top: 1px;
 }
+
+
+
 .img-flowerstyle{
     width: 289px;
-    height: 287px;
+    position: relative;
+
+}
+.img-flowerstyle img{
+    width: 289px;
     position: absolute;
     top: -45px;
+
 }
 .section-posts{
-    margin-top: 138px;
-    background-color: #fff;
-    justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    width: 1200px;
+    margin-bottom: 100px;
 }
 h2{
     font-family: cera_probold;
@@ -481,7 +531,7 @@ h2{
     line-height: 53%;
     text-align: center;
     color: #3d3d3d;
-    width: 100%;
+
 }
 .subtitle{
     font-family: cera_proregular;
@@ -491,22 +541,25 @@ h2{
     text-align: center;
     color: #727272;
     margin-top: 15px;
-    width: 100%;
+
 }
 .posts{
     display: flex;
-    gap: 43px;
+
+    justify-content: space-between;
     margin-top: 35px;
+    gap: 42px;
+
 }
 .card-blog{
-    width: 268px;
+    max-width: 268px;
     height: 362px;
     background: #fbfbfb;
 }
 .blog-text{
     justify-content: start;
     margin-left: 15px;
-    text-align: start;
+
 }
 .blog-text span{
     font-family: cera_promedium;
@@ -553,4 +606,7 @@ h5{
     font-size: 14px;
     line-height: 114%;
     color: #46a358;
+}
+.blog-text a:hover svg path{
+    fill: #46A358;
 }
