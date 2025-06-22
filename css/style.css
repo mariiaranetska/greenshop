@@ -380,6 +380,11 @@ h3{
     max-width: 258px;
     position: relative;
     overflow: hidden;
+    border-top: 1px solid #fff;
+}
+.card:hover{
+    border-top: 1px solid #46a358;
+    transition: 0.5s;
 }
 .card ul{
     position: absolute;
