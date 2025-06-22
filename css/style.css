@@ -378,12 +378,58 @@ h3{
 .card{
     display: inline-block;
     max-width: 258px;
+    position: relative;
+    overflow: hidden;
+}
+.card ul{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    bottom: -54px;
+    left: 0;
+    transition: 0.5s;
+}
+/*
+.card ul li a{
+    border-radius: 4px;
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    padding: 8px 6px;
+    justify-content: center;
+}
+*/
+
+.card:hover ul{
+    bottom: 54px;
 }
 .pagination{
     display: flex;
     justify-content: flex-end;
 
-
+}
+.price-span{
+    font-family: cera_proregular;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 89%;
+    color: #a5a5a5;
+    text-decoration: line-through;
+    padding-left: 16px;
+}
+.card-discount{
+    background: #46a358;
+    padding: 7px 9px;
+    position: absolute;
+    top: 14px;
+    font-family: cera_promedium;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
 }
 .nav-bottom{
     display: inline-flex;
