@@ -393,28 +393,28 @@ h3{
     justify-content: center;
     gap: 10px;
     list-style: none;
-    bottom: -54px;
+    bottom: -64px;
     left: 0;
     transition: 0.5s;
 }
-/*
+
 .card ul li a{
     border-radius: 4px;
     width: 35px;
     height: 35px;
     background: #fff;
-    padding: 8px 6px;
-    justify-content: center;
+    padding: 8px 7px;
+    display: flex;
 }
-*/
-
 .card:hover ul{
-    bottom: 54px;
+    bottom: 64px;
+}
+.card ul li a:hover svg path{
+    fill: #46A358;
 }
 .pagination{
     display: flex;
     justify-content: flex-end;
-
 }
 .price-span{
     font-family: cera_proregular;
