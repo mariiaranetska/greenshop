@@ -809,10 +809,10 @@ footer .second-block{
     background: linear-gradient(90deg, #edf6ef 0%, #52c368 100%);
     display: flex;
     justify-content: space-between;
-    gap: 119px;
     align-items: center;
     padding-bottom: 22px;
     padding-top: 22px;
+    gap: 119px;
 }
 .second-block img{
     margin-left: 23px;
@@ -821,6 +821,7 @@ footer .second-block span{
     gap: 10px;
     display: flex;
     margin-right: 23px;
+    align-items: center;
 }
 footer .second-block span img{
     width: 20px;
@@ -839,6 +840,13 @@ footer .second-block span img{
     color: #1A712A;
 }
 footer .second-block span p{
+    font-family: cera_proregular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #3d3d3d;
+}
+footer .second-block span a{
     font-family: cera_proregular;
     font-weight: 400;
     font-size: 14px;
@@ -877,21 +885,21 @@ footer .second-block span p{
 .links4{
     margin-right: 155px;
 }
-.links1 ul li{
+.links1 ul li a{
     font-family: cera_proregular;
     font-weight: 400;
     font-size: 14px;
     line-height: 214%;
     color: #3d3d3d;
 }
-.links2 ul li{
+.links2 ul li a{
     font-family: cera_proregular;
     font-weight: 400;
     font-size: 14px;
     line-height: 214%;
     color: #3d3d3d;
 }
-.links3 ul li{
+.links3 ul li a{
     font-family: cera_proregular;
     font-weight: 400;
     font-size: 14px;
@@ -931,11 +939,24 @@ footer .second-block span p{
     color: #3d3d3d;
     padding-bottom: 20px;
 }
+.links1 ul li a:hover{
+    color: #46a358;
+    cursor: pointer;
+}
+.links2 ul li a:hover{
+    color: #46a358;
+    cursor: pointer;
+}
+.links3 ul li a:hover{
+    color: #46a358;
+    cursor: pointer;
+}
 .third-block{
     background: #fbfbfb;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 6px;
     gap: 4px;
 }
 
