@@ -771,7 +771,7 @@ h5{
     line-height: 169%;
     color: #727272;
 }
-.join{
+.join-but{
     border-radius: 0 6px 6px 0;
     width: 85px;
     height: 40px;
@@ -802,8 +802,10 @@ footer p{
     padding-bottom: 18px;
 }
 .inp-but{
-    max-width: 354px;
+    max-width: 270px;
     display: flex;
+    border: none;
+    color: #acacac;
 }
 footer .second-block{
     background: linear-gradient(90deg, #edf6ef 0%, #52c368 100%);
@@ -836,9 +838,6 @@ footer .second-block span img{
     color: #3d3d3d;
     padding-bottom: 25px;
 }
-.inp-but a:hover{
-    color: #1A712A;
-}
 footer .second-block span p{
     font-family: cera_proregular;
     font-weight: 400;
@@ -856,13 +855,6 @@ footer .second-block span a{
 .links1 ul{
     list-style: none;
     padding-top: 8px;
-}
-.frame-input input{
-    font-family: cera_proregular;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 114%;
-    color: #acacac;
 }
 .links2 ul{
     list-style: none;
@@ -958,5 +950,14 @@ footer .second-block span a{
     flex-wrap: wrap;
     margin-bottom: 6px;
     gap: 4px;
+}
+.final_stroke p {
+    font-family: cera_proregular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #3d3d3d;
+    text-align: center;
+    margin-bottom: 22px;
 }
 
