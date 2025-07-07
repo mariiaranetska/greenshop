@@ -77,7 +77,7 @@ a{
     color: #3d3d3d;
     margin-bottom: 14px;
 }
-input{
+.input-registr{
     width: 100%;
     border: 1px solid #eaeaea;
     border-radius: 5px;
@@ -87,7 +87,7 @@ input{
 .conf_pass{
     margin-bottom: 41px;
 }
-form button{
+.form-button-registr{
     border-radius: 5px;
     width: 100%;
     text-align: center;
@@ -287,12 +287,20 @@ header nav ul li:hover ul li:hover a{
     color: #fff;
     text-decoration: none;
 }
+.login:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
 .left-hero{
     padding-left: 40px;
 }
 .hero-img{
     max-width: 507px;
     height: 450px;
+}
+.hero-img img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
 }
 .hero-title{
     font-family: 'cera_probold';
@@ -306,6 +314,10 @@ header nav ul li:hover ul li:hover a{
 }
 .hero-title span{
     color: #46a358;
+}
+.hero-title:hover{
+    color: #46a358;
+    transition: 0.5s ease;
 }
 section{
     background-color: white;
@@ -347,7 +359,12 @@ h3{
     padding: 11px 26px;
     text-decoration: none;
 }
-
+.button-shop:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    background: white;
+    color: black;
+}
 
 .leftside{
     max-width: 310px;
@@ -782,6 +799,7 @@ h5{
     line-height: 89%;
     color: #fff;
     border: none;
+    padding: 12px 26px;
 }
 .footer-frame h4{
     font-family: cera_probold;
@@ -802,10 +820,21 @@ footer p{
     padding-bottom: 18px;
 }
 .inp-but{
-    max-width: 270px;
+    max-width: 354px;
     display: flex;
     border: none;
     color: #acacac;
+    margin-bottom: 18px;
+}
+.email-footer-inp{
+    font-family: cera_proregular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: #acacac;
+    padding: 11px 12px;
+    width: 100%;
+    border: none;
 }
 footer .second-block{
     background: linear-gradient(90deg, #edf6ef 0%, #52c368 100%);
@@ -816,16 +845,24 @@ footer .second-block{
     padding-top: 22px;
     gap: 119px;
 }
+.logo_img{
+    margin-left: 23px;
+}
+.logo_img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+
+}
 .second-block img{
     margin-left: 23px;
 }
-footer .second-block span{
+.second-block-contacts{
     gap: 10px;
     display: flex;
     margin-right: 23px;
     align-items: center;
 }
-footer .second-block span img{
+.second-bl-img{
     width: 20px;
     height: 20px;
     color: #46A358;
@@ -838,14 +875,14 @@ footer .second-block span img{
     color: #3d3d3d;
     padding-bottom: 25px;
 }
-footer .second-block span p{
+.second-block-contacts p{
     font-family: cera_proregular;
     font-weight: 400;
     font-size: 14px;
     line-height: 157%;
     color: #3d3d3d;
 }
-footer .second-block span a{
+.second-block-contacts a{
     font-family: cera_proregular;
     font-weight: 400;
     font-size: 14px;
@@ -959,5 +996,9 @@ footer .second-block span a{
     color: #3d3d3d;
     text-align: center;
     margin-bottom: 22px;
+}
+.links4 img:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
 }
 
