@@ -1,0 +1,430 @@
+
+@media (max-width: 320px) {
+    .container {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .hero-title {
+        font-size: 30px;
+        line-height: 110%;
+        text-align: center;
+    }
+    .info {
+        font-size: 12px;
+        text-align: center;
+    }
+    .button-shop {
+        font-size: 14px;
+        padding: 10px 20px;
+        margin: 20px auto 0;
+        display: block;
+    }
+    .hero-img {
+        height: auto;
+        max-width: 100%;
+        text-align: center;
+    }
+    .hero-img img {
+        width: 100%;
+        height: auto;
+    }
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        max-width: 100%;
+    }
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .login {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+    .flower,
+    .posts {
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-flower img,
+    .img-flowerstyle img {
+        position: static;
+        width: 100%;
+    }
+    .info-flower {
+        text-align: center;
+        padding: 10px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .blog-text {
+        margin-left: 0;
+        padding: 0 10px;
+        text-align: center;
+    }
+    footer .first-block,
+    footer .second-block,
+    .third-block {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+    .inp-but {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .join-but {
+        width: 100%;
+        border-radius: 6px;
+    }
+    .email-footer-inp {
+        width: 100%;
+    }
+    .nav-top {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .nav-bottom {
+        justify-content: center;
+    }
+    .leftside, .rightside {
+        max-width: 100%;
+    }
+    .leftside ul {
+        margin: 0;
+    }
+    .frame-input {
+        max-width: 100%;
+    }
+    .links1, .links2, .links3, .links4 {
+        margin: 0;
+    }
+    .footer-frame {
+        margin: 0;
+    }
+}
+@media (max-width: 540px) {
+    .container {
+        flex-direction: column;
+        padding: 0 15px;
+    }
+    .hero-title {
+        font-size: 38px;
+        line-height: 110%;
+        text-align: center;
+    }
+    .info {
+        font-size: 13px;
+        text-align: center;
+    }
+    .button-shop {
+        font-size: 15px;
+        padding: 10px 24px;
+        margin: 25px auto 0;
+        display: block;
+    }
+    .products {
+        justify-content: center;
+        gap: 20px;
+    }
+    .card {
+        max-width: 90%;
+    }
+    header .container {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        gap: 10px;
+    }
+    header nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .hero-img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .flower,
+    .posts {
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-flower img,
+    .img-flowerstyle img {
+        width: 100%;
+        position: static;
+    }
+    .info-flower {
+        padding: 20px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    .blog-text {
+        padding: 0 15px;
+    }
+    footer .first-block,
+    footer .second-block,
+    .third-block {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .frame-input {
+        max-width: 100%;
+    }
+    .inp-but {
+        flex-direction: column;
+    }
+    .join-but {
+        width: 100%;
+        border-radius: 6px;
+    }
+    .email-footer-inp {
+        width: 100%;
+    }
+    .second-block-contacts {
+        flex-direction: column;
+        gap: 4px;
+    }
+    .links1, .links2, .links3, .links4 {
+        margin: 0;
+    }
+    .posts {
+        gap: 24px;
+    }
+    .card-blog {
+        max-width: 90%;
+    }
+    .nav-top {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .leftside, .rightside {
+        max-width: 100%;
+    }
+    .leftside ul {
+        margin: 0;
+        padding-left: 0;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 0 20px;
+        gap: 20px;
+    }
+    header .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        height: auto;
+    }
+    header nav {
+        margin-top: 15px;
+    }
+    header nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+    .hero-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-title {
+        font-size: 48px;
+        text-align: center;
+    }
+    .info {
+        font-size: 14px;
+        text-align: center;
+    }
+    .button-shop {
+        font-size: 15px;
+        margin: 30px auto 0;
+        padding: 12px 28px;
+    }
+    .hero-img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .leftside,
+    .rightside {
+        max-width: 100%;
+    }
+    .products {
+        justify-content: center;
+        gap: 24px;
+    }
+    .card {
+        max-width: 60%;
+    }
+    .flower,
+    .posts {
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-flower img,
+    .img-flowerstyle img {
+        width: 100%;
+        position: static;
+    }
+    .info-flower {
+        padding: 20px;
+        text-align: center;
+    }
+    .blog-text {
+        padding: 0 20px;
+        text-align: center;
+    }
+    .card-blog {
+        max-width: 80%;
+    }
+    footer .first-block,
+    footer .second-block,
+    .third-block {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .frame-input {
+        max-width: 100%;
+    }
+    .inp-but {
+        flex-direction: column;
+    }
+    .email-footer-inp,
+    .join-but {
+        width: 100%;
+    }
+    .links1,
+    .links2,
+    .links3,
+    .links4 {
+        margin: 0;
+    }
+    .nav-top {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .nav-bottom {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .final_stroke p {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        padding: 0 30px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    header .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 10px;
+    }
+    header nav ul {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    .hero-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .left-hero {
+        padding-left: 0;
+        text-align: center;
+    }
+    .hero-title {
+        font-size: 56px;
+        text-align: center;
+    }
+    h3 span{
+        text-align: center;
+    }
+    .info {
+        font-size: 15px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .button-shop {
+        font-size: 16px;
+        padding: 12px 32px;
+        margin: 30px auto 0;
+    }
+    .hero-img {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .products {
+        justify-content: center;
+        gap: 30px;
+    }
+    .card {
+        max-width: 46%;
+    }
+    .leftside,
+    .rightside {
+        max-width: 100%;
+    }
+    .posts {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .card-blog {
+        max-width: 45%;
+    }
+    footer .first-block, .second-block, .third-block {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        text-align: center;
+    }
+    .footer-frame,
+    .frame-input {
+        max-width: 100%;
+        text-align: center;
+    }
+    .inp-but {
+        flex-direction: column;
+    }
+    .join-but,
+    .email-footer-inp {
+        width: 100%;
+    }
+    .nav-top {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .nav-bottom {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

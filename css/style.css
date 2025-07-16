@@ -1056,3 +1056,138 @@ footer .second-block{
     transition: transform 0.3s ease;
 }
 
+@media (max-width: 320px) {
+    .container {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .hero-title {
+        font-size: 30px;
+        line-height: 110%;
+        text-align: center;
+    }
+
+    .info {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .button-shop {
+        font-size: 14px;
+        padding: 10px 20px;
+        margin: 20px auto 0;
+        display: block;
+    }
+
+    .hero-img {
+        height: auto;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .login {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .flower,
+    .posts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-flower img,
+    .img-flowerstyle img {
+        position: static;
+        width: 100%;
+    }
+
+    .info-flower {
+        text-align: center;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .blog-text {
+        margin-left: 0;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    footer .first-block,
+    footer .second-block,
+    .third-block {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .inp-but {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .join-but {
+        width: 100%;
+        border-radius: 6px;
+    }
+
+    .email-footer-inp {
+        width: 100%;
+    }
+
+    .nav-top {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .nav-bottom {
+        justify-content: center;
+    }
+
+    .leftside, .rightside {
+        max-width: 100%;
+    }
+
+    .leftside ul {
+        margin: 0;
+    }
+
+    .frame-input {
+        max-width: 100%;
+    }
+
+    .links1, .links2, .links3, .links4 {
+        margin: 0;
+    }
+
+    .footer-frame {
+        margin: 0;
+    }
+}
