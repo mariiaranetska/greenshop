@@ -1223,7 +1223,7 @@ footer .second-block{
    text-align: center;
     position: absolute;
     bottom: 30px;
-    width: 100%;
+    left: 44%;
    .owl-dot{
        span{
            display: inline-block;
