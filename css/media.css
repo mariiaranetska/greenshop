@@ -134,7 +134,7 @@
         gap: 20px;
     }
     .card {
-        max-width: 90%;
+        max-width: 100%;
     }
     header .container {
         flex-direction: column;
@@ -378,7 +378,7 @@
         margin: 30px auto 0;
     }
     .hero-img {
-        max-width: 90%;
+        max-width: 100%;
         margin: 0 auto;
     }
     .products {
